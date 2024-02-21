@@ -1,0 +1,23 @@
+{
+  "name": "django",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd docs/ && npx docsify serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "docsify": "^4.13.1",
+    "docsify-cli": "^4.4.4"
+  },
+  "engines": {
+    "node": "20.11.0"
+  },
+  "packageManager": "npm@10.2.4"
+}
